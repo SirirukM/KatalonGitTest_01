@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_registerVlt</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b16346fd-f9c0-40e3-b7dc-fec51e74463d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3c4c184c-8cf5-4872-ab3f-c7cd6bf128a4</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>570eef52-08ab-4839-8dce-e414fce8537e</id>
+      <masked>false</masked>
+      <name>EMAIL</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fddec96d-16d2-460a-82da-6704b9dd251d</id>
+      <masked>false</masked>
+      <name>PASSWORD</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e9e8bd1d-7792-4cca-8f84-e1afc3f77446</id>
+      <masked>false</masked>
+      <name>password_confirmation</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2eb66b56-021e-408a-ba1c-4d103504769e</id>
+      <masked>false</masked>
+      <name>statusExpectedResult</name>
+   </variable>
+</TestCaseEntity>

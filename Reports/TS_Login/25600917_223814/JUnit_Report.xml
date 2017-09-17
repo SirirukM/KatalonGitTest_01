@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login" time="38" tests="1" failures="2" errors="0">
+   <testsuite name="TS_Login" tests="1" failures="2" errors="0" time="38" timestamp="2560-09-17 22:38:16" hostname="siriruk - NB-SU06-2560.NIA.LOCAL" id="Test Suites/TS_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\siriruk\\Katalon Studio\\Test_sample\\Reports\\TS_Login\\25600917_223814"/>
+         <property name="logFiles" value="C:\\Users\\siriruk\\Katalon Studio\\Test_sample\\Reports\\TS_Login\\25600917_223814\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="siriruk - NB-SU06-2560.NIA.LOCAL"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 25.0"/>
+         <property name="hostAddress" value="172.20.10.2"/>
+         <property name="sessionId" value="d5c71157-5cc1-4cbf-88f2-e983bb8dc577"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/Test_registerVlt - Iteration 1" classname="Test Cases/Main Test Cases/Test_registerVlt" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Main Test Cases/Test_registerVlt FAILED because (of) Unable to click on object 'Object Repository/Test_vorlunRegis/Page_/a_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB-SU06-2560', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2560-09-17 22:38:17 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/Test_registerVlt - Iteration 1: Test Cases/Main Test Cases/Test_registerVlt FAILED because (of) Unable to click on object 'Object Repository/Test_vorlunRegis/Page_/a_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB-SU06-2560', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2560-09-17 22:38:17 - [TEST_STEP][PASSED] - Setup: Method 'Setup' complete successfully
+
+2560-09-17 22:38:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://vivblind.play2pay.me/volunteer/register'
+
+2560-09-17 22:38:33 - [MESSAGE][PASSED] - Browser is opened with url: 'http://vivblind.play2pay.me/volunteer/register'
+
+2560-09-17 22:38:33 - [MESSAGE][PASSED] - Method 'Setup' complete successfully
+
+2560-09-17 22:38:33 - [TEST_STEP][PASSED] - Teardown: Method 'Teardown' complete successfully
+
+2560-09-17 22:38:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2560-09-17 22:38:34 - [MESSAGE][PASSED] - Browser is closed
+
+2560-09-17 22:38:34 - [MESSAGE][PASSED] - Method 'Teardown' complete successfully
+
+2560-09-17 22:38:34 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Test_vorlunRegis/Page_/a_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB-SU06-2560', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2560-09-17 22:38:34 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2560-09-17 22:38:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Test_vorlunRegis/Page_/a_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB-SU06-2560', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2560-09-17 22:38:17 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/Test_registerVlt - Iteration 1: Test Cases/Main Test Cases/Test_registerVlt FAILED because (of) Unable to click on object 'Object Repository/Test_vorlunRegis/Page_/a_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB-SU06-2560', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/Test_registerVlt - Iteration 2" classname="Test Cases/Main Test Cases/Test_registerVlt" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Main Test Cases/Test_registerVlt FAILED because (of) Unable to click on object 'Object Repository/Test_vorlunRegis/Page_/a_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB-SU06-2560', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2560-09-17 22:38:34 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/Test_registerVlt - Iteration 2: Test Cases/Main Test Cases/Test_registerVlt FAILED because (of) Unable to click on object 'Object Repository/Test_vorlunRegis/Page_/a_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB-SU06-2560', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2560-09-17 22:38:34 - [TEST_STEP][PASSED] - Setup: Method 'Setup' complete successfully
+
+2560-09-17 22:38:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://vivblind.play2pay.me/volunteer/register'
+
+2560-09-17 22:38:44 - [MESSAGE][PASSED] - Browser is opened with url: 'http://vivblind.play2pay.me/volunteer/register'
+
+2560-09-17 22:38:44 - [MESSAGE][PASSED] - Method 'Setup' complete successfully
+
+2560-09-17 22:38:44 - [TEST_STEP][PASSED] - Teardown: Method 'Teardown' complete successfully
+
+2560-09-17 22:38:44 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2560-09-17 22:38:44 - [MESSAGE][PASSED] - Browser is closed
+
+2560-09-17 22:38:44 - [MESSAGE][PASSED] - Method 'Teardown' complete successfully
+
+2560-09-17 22:38:44 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Test_vorlunRegis/Page_/a_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB-SU06-2560', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2560-09-17 22:38:44 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2560-09-17 22:38:44 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Test_vorlunRegis/Page_/a_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB-SU06-2560', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2560-09-17 22:38:34 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/Test_registerVlt - Iteration 2: Test Cases/Main Test Cases/Test_registerVlt FAILED because (of) Unable to click on object 'Object Repository/Test_vorlunRegis/Page_/a_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB-SU06-2560', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Test Cases/Login" classname="Test Cases/Common Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2560-09-17 22:38:44 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+2560-09-17 22:38:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://vivblind.play2pay.me/'
+
+2560-09-17 22:38:54 - [MESSAGE][PASSED] - Browser is opened with url: 'http://vivblind.play2pay.me/'
+
+2560-09-17 22:38:54 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Test_Login/Page_/input_EMAIL'
+
+2560-09-17 22:38:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Test_Login/Page_/input_EMAIL'
+
+2560-09-17 22:38:54 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Test_Login/Page_/input_password'
+
+2560-09-17 22:38:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Test_Login/Page_/input_password'
+
+2560-09-17 22:38:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test_Login/Page_/button_' is clicked on
+
+2560-09-17 22:38:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_Login/Page_/button_' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2560-09-17 22:38:16 - [TEST_SUITE][FAILED] - TS_Login: Test Cases/Main Test Cases/Test_registerVlt FAILED because (of) Unable to click on object 'Object Repository/Test_vorlunRegis/Page_/a_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB-SU06-2560', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2560-09-17 22:38:16 - [TEST_SUITE][FAILED] - TS_Login: Test Cases/Main Test Cases/Test_registerVlt FAILED because (of) Unable to click on object 'Object Repository/Test_vorlunRegis/Page_/a_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB-SU06-2560', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Login,Chrome 60.0.3112.113,,2560-09-17 22:45:36,2560-09-17 22:46:02,25.795s,FAILED
+,,,,,,
+Test Cases/Main Test Cases/Test_registerVlt - Iteration 1,Chrome 60.0.3112.113,,2560-09-17 22:45:36,2560-09-17 22:45:47,10.249s,FAILED
+Setup,Chrome 60.0.3112.113,,2560-09-17 22:45:37,2560-09-17 22:45:45,8.286s,PASSED
+Teardown,Chrome 60.0.3112.113,,2560-09-17 22:45:45,2560-09-17 22:45:46,1.375s,PASSED
+click,Chrome 60.0.3112.113,Click login in regisbtn,2560-09-17 22:45:46,2560-09-17 22:45:47,0.164s,FAILED
+,,,,,,
+Test Cases/Main Test Cases/Test_registerVlt - Iteration 2,Chrome 60.0.3112.113,,2560-09-17 22:45:47,2560-09-17 22:45:54,7.292s,FAILED
+Setup,Chrome 60.0.3112.113,,2560-09-17 22:45:47,2560-09-17 22:45:53,6.163s,PASSED
+Teardown,Chrome 60.0.3112.113,,2560-09-17 22:45:53,2560-09-17 22:45:54,1.042s,PASSED
+click,Chrome 60.0.3112.113,Click login in regisbtn,2560-09-17 22:45:54,2560-09-17 22:45:54,0.047s,FAILED
+,,,,,,
+Test Cases/Common Test Cases/Login,Chrome 60.0.3112.113,Common test case used to login. \nSteps:\n- Click on 'Book Appointment' button to login\n- Input username and password\n- Click on 'Login' button\n\nExpected result:\n'Appointment' section is displayed after successful login,2560-09-17 22:45:54,2560-09-17 22:46:00,6.482s,PASSED
+openBrowser,Chrome 60.0.3112.113,Open Browser,2560-09-17 22:45:54,2560-09-17 22:46:00,5.390s,PASSED
+setText,Chrome 60.0.3112.113,Fill Email,2560-09-17 22:46:00,2560-09-17 22:46:00,0.315s,PASSED
+setText,Chrome 60.0.3112.113,Fill password,2560-09-17 22:46:00,2560-09-17 22:46:00,0.190s,PASSED
+click,Chrome 60.0.3112.113,Click login,2560-09-17 22:46:00,2560-09-17 22:46:00,0.181s,PASSED

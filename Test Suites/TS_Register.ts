@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Register</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2017-09-17T22:45:34</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>e7f5c24f-adc8-4bdd-8c05-cc04fb23f1dc</testSuiteGuid>
+   <testCaseLink>
+      <guid>ca1f4ba3-3f5a-40c7-8401-23f25ce687aa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Test Cases/Test_registerVlt</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>3d772b81-04d5-4a0e-b475-cce8c999e588</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataLoginExcelFile</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3d772b81-04d5-4a0e-b475-cce8c999e588</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
+         <variableId>3c4c184c-8cf5-4872-ab3f-c7cd6bf128a4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3d772b81-04d5-4a0e-b475-cce8c999e588</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EMAIL</value>
+         <variableId>570eef52-08ab-4839-8dce-e414fce8537e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3d772b81-04d5-4a0e-b475-cce8c999e588</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PASSWORD</value>
+         <variableId>fddec96d-16d2-460a-82da-6704b9dd251d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3d772b81-04d5-4a0e-b475-cce8c999e588</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password_confirmation</value>
+         <variableId>e9e8bd1d-7792-4cca-8f84-e1afc3f77446</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3d772b81-04d5-4a0e-b475-cce8c999e588</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected result Test Case</value>
+         <variableId>2eb66b56-021e-408a-ba1c-4d103504769e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

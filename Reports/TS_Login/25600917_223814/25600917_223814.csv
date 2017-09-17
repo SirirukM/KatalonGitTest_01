@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Login,Firefox 25.0,,2560-09-17 22:38:16,2560-09-17 22:38:55,38.714s,FAILED
+,,,,,,
+Test Cases/Main Test Cases/Test_registerVlt - Iteration 1,Firefox 25.0,,2560-09-17 22:38:17,2560-09-17 22:38:34,17.052s,FAILED
+Setup,Firefox 25.0,,2560-09-17 22:38:17,2560-09-17 22:38:33,16.017s,PASSED
+Teardown,Firefox 25.0,,2560-09-17 22:38:33,2560-09-17 22:38:34,0.502s,PASSED
+click,Firefox 25.0,Click login in regisbtn,2560-09-17 22:38:34,2560-09-17 22:38:34,0.143s,FAILED
+,,,,,,
+Test Cases/Main Test Cases/Test_registerVlt - Iteration 2,Firefox 25.0,,2560-09-17 22:38:34,2560-09-17 22:38:44,10.091s,FAILED
+Setup,Firefox 25.0,,2560-09-17 22:38:34,2560-09-17 22:38:44,9.620s,PASSED
+Teardown,Firefox 25.0,,2560-09-17 22:38:44,2560-09-17 22:38:44,0.378s,PASSED
+click,Firefox 25.0,Click login in regisbtn,2560-09-17 22:38:44,2560-09-17 22:38:44,0.031s,FAILED
+,,,,,,
+Test Cases/Common Test Cases/Login,Firefox 25.0,Common test case used to login. \nSteps:\n- Click on 'Book Appointment' button to login\n- Input username and password\n- Click on 'Login' button\n\nExpected result:\n'Appointment' section is displayed after successful login,2560-09-17 22:38:44,2560-09-17 22:38:55,10.666s,PASSED
+openBrowser,Firefox 25.0,Open Browser,2560-09-17 22:38:44,2560-09-17 22:38:54,9.862s,PASSED
+setText,Firefox 25.0,Fill Email,2560-09-17 22:38:54,2560-09-17 22:38:54,0.213s,PASSED
+setText,Firefox 25.0,Fill password,2560-09-17 22:38:54,2560-09-17 22:38:55,0.096s,PASSED
+click,Firefox 25.0,Click login,2560-09-17 22:38:55,2560-09-17 22:38:55,0.107s,PASSED
